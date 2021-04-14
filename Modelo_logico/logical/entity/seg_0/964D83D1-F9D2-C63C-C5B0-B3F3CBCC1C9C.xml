@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="964D83D1-F9D2-C63C-C5B0-B3F3CBCC1C9C" name="Aluno">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 04:45:35 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RA" id="5D2EA660-7B89-FE88-3DC6-CADBDD43875A">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:38:17 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_diciplina" id="9F7CCB42-EEBE-BA36-3C3B-AE74A823445E">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:40:32 UTC</createdTime>
+<generatorID>2548A78C-D90F-4E6F-696D-51C03F705E23</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<referedAttribute>404E7A8B-6F0E-AAC9-7FB9-D3194E667DC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diciplina_curso" id="D0F683AA-CE8A-47F0-4669-6FC5D1AA87B8">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:42:15 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reprovacao_diciplina" id="C2EBCC89-3595-9AA2-8CE2-648653E842FF">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:43:34 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="158C7B0D-201B-B954-DC40-53DEB58C5B6F">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:53:05 UTC</createdTime>
+<generatorID>9E9CD09E-1B48-0E4E-A325-0786817BE70D</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<referedAttribute>B94373A4-7976-E285-0A3E-1E5C60D230AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_historico" id="980B30D7-DF78-A01E-A5CC-D3B6FF1B3F19">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:53:59 UTC</createdTime>
+<generatorID>9FA36C49-59D7-1498-E5FD-2B9C036CC801</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<referedAttribute>301083A6-3F91-15F8-04E5-72D91A1F72BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="065300F7-D094-48C6-4324-A2AC915E8673" name="Aluno PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:38:33 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D2EA660-7B89-FE88-3DC6-CADBDD43875A</attributeRef>
+<attributeRef>980B30D7-DF78-A01E-A5CC-D3B6FF1B3F19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

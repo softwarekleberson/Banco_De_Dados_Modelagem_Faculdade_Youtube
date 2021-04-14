@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="121AFBED-2521-4B04-3C69-2476D3E10A54" name="Historico">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:32:45 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_historico" id="301083A6-3F91-15F8-04E5-72D91A1F72BA">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:53:37 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diciplina_cursada" id="3415C154-298A-DFE5-A7B0-60A82DCB6F4E">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:44:50 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="C13332CD-F68E-8A49-D312-A38C48685EC0">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:45:13 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequencia" id="389423BB-CF3F-2F02-D5A2-30A3E9F10A8F">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:45:26 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="periodo" id="82E6131B-7C41-802B-CD64-2631D736807D">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:45:57 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota_final" id="DB839DB1-84CA-89A8-E7F6-B14030B48B4F">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:46:04 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2887CE6-5262-2B10-0474-119EF46C454F" name="Historico PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:53:54 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>301083A6-3F91-15F8-04E5-72D91A1F72BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

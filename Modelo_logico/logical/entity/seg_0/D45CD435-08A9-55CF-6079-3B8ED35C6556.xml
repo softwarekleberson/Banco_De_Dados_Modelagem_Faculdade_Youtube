@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D45CD435-08A9-55CF-6079-3B8ED35C6556" name="Curso">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 04:45:52 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_curso" id="B94373A4-7976-E285-0A3E-1E5C60D230AD">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:50:01 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carga" id="746A6DC5-758B-5BC6-E5A0-CDB1D382E7FF">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:49:04 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracao" id="958D6F46-F928-17D6-833A-590B304AC206">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:49:25 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_alunos" id="D2BF66FB-CD7A-ACC6-3549-4D2C6D5EE245">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:49:32 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C544BFEB-A435-F1D3-BC0C-A1018F44C8FB" name="Curso PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:52:52 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B94373A4-7976-E285-0A3E-1E5C60D230AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="064C4509-54D9-8B81-63EF-2493AB0CF877" name="Diciplina">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 04:46:08 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_diciplina" id="404E7A8B-6F0E-AAC9-7FB9-D3194E667DC1">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:40:26 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vaga" id="527EE834-F71A-2EA6-045E-C8CF3954CDFA">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:39:22 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obrigatoria_optativa" id="854455A2-2EDB-F5F2-2E1E-7D1AC6DBD05F">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:39:44 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_departamento" id="9E63A02F-2F3B-5B44-B3D8-98152B2CEC78">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:50:44 UTC</createdTime>
+<generatorID>0D1A4066-DC15-A5F1-973D-40C621B5A17D</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<referedAttribute>0E821733-5C3D-3BF8-1F31-2F667D155025</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_professor" id="71BFE9EB-E956-2A41-978C-184217C1EC86">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:53:22 UTC</createdTime>
+<generatorID>61C24E45-F9FE-ABA4-FA82-E105AC26B680</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<referedAttribute>8464560B-C5F0-1CD8-284D-F0B574BBF8C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BEE78A5-2235-70C2-0E5B-8CF54DD0C90F" name="Diciplina PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 05:40:31 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>404E7A8B-6F0E-AAC9-7FB9-D3194E667DC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

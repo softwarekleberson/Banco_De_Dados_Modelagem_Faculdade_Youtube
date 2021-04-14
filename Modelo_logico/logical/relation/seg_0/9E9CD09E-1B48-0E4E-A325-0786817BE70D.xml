@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="matriculado" directorySegmentName="seg_0" id="9E9CD09E-1B48-0E4E-A325-0786817BE70D">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-14 04:49:19 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="15686D78-545C-864C-AEC2-5CD3026063DD" value="true"/>
+</engineerTo>
+<targetPk>C544BFEB-A435-F1D3-BC0C-A1018F44C8FB</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>964D83D1-F9D2-C63C-C5B0-B3F3CBCC1C9C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D45CD435-08A9-55CF-6079-3B8ED35C6556</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
